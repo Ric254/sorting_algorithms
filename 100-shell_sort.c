@@ -1,19 +1,3 @@
-rhomeinel
-/
-sorting_algorithms
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-sorting_algorithms/100-shell_sort.c
-@rhomeinel
-rhomeinel Add function for shell sort algorithm
- 1 contributor
-35 lines (30 sloc)  615 Bytes
 #include "sort.h"
 
 /**
@@ -49,4 +33,3 @@ void shell_sort(int *array, size_t size)
 		print_array(array, size);
 	}
 }
-
